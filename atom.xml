@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://perishes.github.io</id>
     <title>彼の解構</title>
-    <updated>2021-04-30T08:49:58.827Z</updated>
+    <updated>2021-04-30T09:06:26.375Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://perishes.github.io"/>
     <link rel="self" href="https://perishes.github.io/atom.xml"/>
@@ -10,4 +10,15 @@
     <logo>https://perishes.github.io/images/avatar.png</logo>
     <icon>https://perishes.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 彼の解構</rights>
+    <entry>
+        <title type="html"><![CDATA[不望遇贵人，开拓新生]]></title>
+        <id>https://perishes.github.io/bu-wang-yu-gui-ren-kai-tuo-xin-sheng/</id>
+        <link href="https://perishes.github.io/bu-wang-yu-gui-ren-kai-tuo-xin-sheng/">
+        </link>
+        <updated>2021-04-30T08:50:06.000Z</updated>
+        <content type="html"><![CDATA[<p>很多困苦的时候总是乞望背后有一大手推力，可能这是很多初入人潮的人的侥侥心理，在家在校又有些帮忙打点的人，思想和行动在依附之中形成惰性。一直责备自己，要什么深刻道理，行动上的起步就已经败落，创出新一片天地的一定是自己的双手，当然我在这里并不像阐述励志鸡汤文...<br>
+可能许多时候缺乏行动的动力就是内心的勇气匮乏，犹如见飓风就畏成苍天大树，有时候，对又是有时候，我们不能限于眼前那一方土地，常望于前，再回望自己身边的人，之后是需要用双手搭建庇护他们的风雨港的...<br>
+贵人这之事，可遇不可求。遇之，珍视之，不遇，又何妨。贵人只不过是人生的一组助力剂，不是我们自身的动力中枢...</p>
+]]></content>
+    </entry>
 </feed>
