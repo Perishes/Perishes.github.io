@@ -1,119 +1,126 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
+    
+<meta charset="utf-8" >
 
 <title>不望遇贵人，开拓新生 | 彼の解構</title>
+<meta name="description" content="落花时节又逢君..">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://perishes.github.io/favicon.ico?v=1619922435585">
+<link rel="shortcut icon" href="https://perishes.github.io/favicon.ico?v=1619922668975">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://perishes.github.io/styles/main.css">
 
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
-    <meta name="description" content="很多困苦的时候总是乞望背后有一大手推力，可能这是很多初入人潮的人的侥侥心理，在家在校又有些帮忙打点的人，思想和行动在依附之中形成惰性。一直责备自己，要什么深刻道理，行动上的起步就已经败落，创出新一片天地的一定是自己的双手，当然我在这里并不像..." />
-    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://perishes.github.io">
-        <img src="https://perishes.github.io/images/avatar.png?v=1619922435585" class="site-logo">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://perishes.github.io">
+        <img class="avatar" src="https://perishes.github.io/images/avatar.png?v=1619922668975" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://perishes.github.io">
         <h1 class="site-title">彼の解構</h1>
       </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
     </div>
-    <div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
         
-          <a href="https://perishes.github.io" class="site-nav">
+          <a href="https://perishes.github.io" class="menu purple-link">
             首页
           </a>
         
       
         
-          <a href="/archives" class="site-nav">
+          <a href="/archives" class="menu purple-link">
             归档
           </a>
         
       
         
-          <a href="https://perishes.github.io/tags" class="site-nav">
+          <a href="https://perishes.github.io/tags" class="menu purple-link">
             标签
           </a>
         
       
         
-          <a href="https://perishes.github.io/archives" class="site-nav" target="_blank">
+          <a class="menu purple-link" href="https://perishes.github.io/archives" class="menu" target="_blank">
             关于
           </a>
         
       
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      落花时节又逢君..
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://perishes.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
+</transition>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">不望遇贵人，开拓新生</h2>
-            <div class="post-date">2021-04-30</div>
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">不望遇贵人，开拓新生</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2021-04-30</span>
             
-            <div class="post-content" v-pre>
-              <p>很多困苦的时候总是乞望背后有一大手推力，可能这是很多初入人潮的人的侥侥心理，在家在校又有些帮忙打点的人，思想和行动在依附之中形成惰性。一直责备自己，要什么深刻道理，行动上的起步就已经败落，创出新一片天地的一定是自己的双手，当然我在这里并不像阐述励志鸡汤文...<br>
+          </div>
+          <div class="post-content">
+            <p>很多困苦的时候总是乞望背后有一大手推力，可能这是很多初入人潮的人的侥侥心理，在家在校又有些帮忙打点的人，思想和行动在依附之中形成惰性。一直责备自己，要什么深刻道理，行动上的起步就已经败落，创出新一片天地的一定是自己的双手，当然我在这里并不像阐述励志鸡汤文...<br>
 可能许多时候缺乏行动的动力就是内心的勇气匮乏，犹如见飓风就畏成苍天大树，有时候，对又是有时候，我们不能限于眼前那一方土地，常望于前，再回望自己身边的人，之后是需要用双手搭建庇护他们的风雨港的...<br>
 贵人这之事，可遇不可求。遇之，珍视之，不遇，又何妨。贵人只不过是人生的一组助力剂，不是我们自身的动力中枢...</p>
 
-            </div>
-            
-            
-
-            
-
           </div>
-
         </div>
+
+        
       </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">落花时节又逢君..</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://perishes.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
     </div>
+    <script type="application/javascript">
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
-
-AOS.init();
+hljs.initHighlightingOnLoad()
 
 var app = new Vue({
   el: '#app',
@@ -123,13 +130,6 @@ var app = new Vue({
 })
 
 </script>
-
-
-  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad()
-  </script>
-
 
 
 
