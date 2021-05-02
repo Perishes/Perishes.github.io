@@ -1,158 +1,138 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>不望遇贵人，开拓新生 | 彼の解構</title>
-<link rel="shortcut icon" href="https://perishes.github.io/favicon.ico?v=1619883481206">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://perishes.github.io/favicon.ico?v=1619922435585">
 <link rel="stylesheet" href="https://perishes.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="不望遇贵人，开拓新生 | 彼の解構 - Atom Feed" href="https://perishes.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
     <meta name="description" content="很多困苦的时候总是乞望背后有一大手推力，可能这是很多初入人潮的人的侥侥心理，在家在校又有些帮忙打点的人，思想和行动在依附之中形成惰性。一直责备自己，要什么深刻道理，行动上的起步就已经败落，创出新一片天地的一定是自己的双手，当然我在这里并不像..." />
     <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://perishes.github.io">
-  <img class="avatar" src="https://perishes.github.io/images/avatar.png?v=1619883481206" alt="">
-  </a>
-  <h1 class="site-title">
-    彼の解構
-  </h1>
-  <p class="site-description">
-    落花时节又逢君..
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://perishes.github.io">
+        <img src="https://perishes.github.io/images/avatar.png?v=1619922435585" class="site-logo">
+        <h1 class="site-title">彼の解構</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="https://perishes.github.io" class="menu">
-          首页
-        </a>
+        
+          <a href="https://perishes.github.io" class="site-nav">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
       
-        <a href="/archives" class="menu">
-          归档
-        </a>
+        
+          <a href="https://perishes.github.io/tags" class="site-nav">
+            标签
+          </a>
+        
       
-    
+        
+          <a href="https://perishes.github.io/archives" class="site-nav" target="_blank">
+            关于
+          </a>
+        
       
-        <a href="https://perishes.github.io/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="https://perishes.github.io/archives" class="menu" target="_blank">
-          关于
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
+      
+    </div>
+    <div class="site-description">
+      落花时节又逢君..
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://perishes.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              不望遇贵人，开拓新生
-            </h2>
-            <div class="post-info">
-              <span>
-                2021-04-30
-              </span>
-              <span>
-                1 min read
-              </span>
-              
-            </div>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">不望遇贵人，开拓新生</h2>
+            <div class="post-date">2021-04-30</div>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>很多困苦的时候总是乞望背后有一大手推力，可能这是很多初入人潮的人的侥侥心理，在家在校又有些帮忙打点的人，思想和行动在依附之中形成惰性。一直责备自己，要什么深刻道理，行动上的起步就已经败落，创出新一片天地的一定是自己的双手，当然我在这里并不像阐述励志鸡汤文...<br>
+            <div class="post-content" v-pre>
+              <p>很多困苦的时候总是乞望背后有一大手推力，可能这是很多初入人潮的人的侥侥心理，在家在校又有些帮忙打点的人，思想和行动在依附之中形成惰性。一直责备自己，要什么深刻道理，行动上的起步就已经败落，创出新一片天地的一定是自己的双手，当然我在这里并不像阐述励志鸡汤文...<br>
 可能许多时候缺乏行动的动力就是内心的勇气匮乏，犹如见飓风就畏成苍天大树，有时候，对又是有时候，我们不能限于眼前那一方土地，常望于前，再回望自己身边的人，之后是需要用双手搭建庇护他们的风雨港的...<br>
 贵人这之事，可遇不可求。遇之，珍视之，不遇，又何妨。贵人只不过是人生的一组助力剂，不是我们自身的动力中枢...</p>
 
-              </div>
-              <div class="toc-container">
-                
-              </div>
             </div>
-          </article>
+            
+            
+
+            
+
+          </div>
+
         </div>
-
-        
-
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://perishes.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
       </div>
     </div>
 
-    <script>
-      hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+AOS.init();
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
+</script>
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+
   </body>
 </html>
