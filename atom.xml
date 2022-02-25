@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://perishes.github.io</id>
     <title>彼の解構</title>
-    <updated>2022-02-25T12:13:58.131Z</updated>
+    <updated>2022-02-25T12:19:36.216Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://perishes.github.io"/>
     <link rel="self" href="https://perishes.github.io/atom.xml"/>
@@ -16,8 +16,6 @@
         <link href="https://perishes.github.io/fang-qi-si-kao/">
         </link>
         <updated>2022-01-08T11:29:25.000Z</updated>
-        <content type="html"><![CDATA[<p>麻木苟存在</p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[禁欲望]]></title>
@@ -25,8 +23,6 @@
         <link href="https://perishes.github.io/jin-yu-wang/">
         </link>
         <updated>2022-01-08T11:28:44.000Z</updated>
-        <content type="html"><![CDATA[<p>超越</p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[反复]]></title>
@@ -34,8 +30,6 @@
         <link href="https://perishes.github.io/fan-fu/">
         </link>
         <updated>2022-01-08T11:24:11.000Z</updated>
-        <content type="html"><![CDATA[<p>人生多叨折</p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[烈日热风、脑花晒干]]></title>
@@ -43,9 +37,6 @@
         <link href="https://perishes.github.io/lie-ri-re-feng-nao-hua-shai-gan/">
         </link>
         <updated>2021-06-09T04:21:28.000Z</updated>
-        <content type="html"><![CDATA[<p>时间似流水，想挡也挡不住，而你有需要去做的事情又不得马虎，抛去偏向安逸的思绪在，这时间的刻度就不再是小时、天了，而是月、年...我也渐渐理解小孩时候看待大人的那些无信行为了，承诺过的事情可能，承诺的时机正确，但到实现的时候却是费力不得好...之所以有这样的看法，是因为现在的我对自己的承诺都是无法兑现的，当然，我并认为这可以开脱罪名，我只是找出这现象背后的心理...不想与别人相同的我自然也在苦恼地寻找解决的方法...这是一个底线问题...<br>
-说实话我真的很讨厌夏天，但是才劳动者尤其是体力劳动、户外劳动的来说，过寒过热都难以忍受，这是很多人不会去思考的背面，但是他们有理由不去想这些，因为这些八杆子和他们打不着关系，而像我这般家庭的人，背向着这些，仰望星空，负积越多也常常越容易用力过猛...</p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[春暖花败，也愿温情脉脉]]></title>
@@ -58,10 +49,6 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>再过几日就是立夏了，这几日白天热浪涛涛，走在路上被其扑头盖脸打来，虽还不至急吸难喘，却也豆大的几颗汗珠额头滚落...这是春末该有的...<br>
 此时也还算是春天，花败如斯也还绿叶娇娇，如果说初夏是一场大自然的高温派对，那么这便是开始的前奏，热天清朗爽澈，却也充满考验...生命更迭繁新，我们该是放慢脚步了...</p>
-<!-- more -->
-<p>这几日，天上大阳老孩彻日未歇，驱开白云，秃秃地显现一片蓝天，免不得忆起雨天下的湖面波光粼粼...一同一览无余的还有住所寓下的湖面，此时的它应该是羞于示人的，除湖心外，边际都是浮草，当然自不是天然的水草，而是路边斩落的茅草抛入干萎的黄黄一片，与生机勃然的季节有得几分反照...</p>
-<!-- more -->
-<p>路边的三叶草蔫了，也还是没寻见久久盼的含羞草和大红蒲公英...</p>
 ]]></content>
     </entry>
     <entry>
@@ -70,9 +57,5 @@
         <link href="https://perishes.github.io/bu-wang-yu-gui-ren-kai-tuo-xin-sheng/">
         </link>
         <updated>2021-04-30T08:50:06.000Z</updated>
-        <content type="html"><![CDATA[<p>很多困苦的时候总是乞望背后有一大手推力，可能这是很多初入人潮的人的侥侥心理，在家在校又有些帮忙打点的人，思想和行动在依附之中形成惰性。一直责备自己，要什么深刻道理，行动上的起步就已经败落，创出新一片天地的一定是自己的双手，当然我在这里并不像阐述励志鸡汤文...<br>
-可能许多时候缺乏行动的动力就是内心的勇气匮乏，犹如见飓风就畏成苍天大树，有时候，对又是有时候，我们不能限于眼前那一方土地，常望于前，再回望自己身边的人，之后是需要用双手搭建庇护他们的风雨港的...<br>
-贵人这之事，可遇不可求。遇之，珍视之，不遇，又何妨。贵人只不过是人生的一组助力剂，不是我们自身的动力中枢...</p>
-]]></content>
     </entry>
 </feed>
