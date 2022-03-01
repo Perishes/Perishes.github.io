@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://perishes.github.io</id>
     <title>彼の解構</title>
-    <updated>2022-02-26T06:34:46.309Z</updated>
+    <updated>2022-03-01T08:46:26.373Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://perishes.github.io"/>
     <link rel="self" href="https://perishes.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://perishes.github.io/images/avatar.png</logo>
     <icon>https://perishes.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 彼の解構</rights>
+    <entry>
+        <title type="html"><![CDATA[他爸的--尧十三]]></title>
+        <id>https://perishes.github.io/ta-ba-de-yao-shi-san/</id>
+        <link href="https://perishes.github.io/ta-ba-de-yao-shi-san/">
+        </link>
+        <updated>2022-03-01T08:45:11.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[放弃思考]]></title>
         <id>https://perishes.github.io/fang-qi-si-kao/</id>
